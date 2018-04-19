@@ -13,22 +13,60 @@
       margin: 0 auto;
     }
     #content{padding: 10px; margin: 0;}
-    .block{
-      height: 100px;
-      border: 2px solid lightblue;
-      background: #c5f3dd
+    .box-block{
+       position: relative;
+       width: 50vw;
+       height: 50vh;
+    }
+    .box-content{
+      position: absolute;
+      width: 100%;
+   
+      background: #c5f3dd;
+      border: 3px solid red;
+    }
+    .arrow-border{
+    /* position: absolute;
+   
+      width: 0;
+      height:0;
+      border-right: 30px solid transparent;
+      border-left: 30px solid transparent;
+      border-bottom: 30px solid red;
+      margin: 0 auto;*/
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      width: 45px;
+      height: 45px;      
+      background-color: red;
+      transform: rotate(45deg);
+    
+     
     }
     .arrow-up{
+      position: relative;
+      top: 5px;
+      left: 22px;
       width: 0;
       height: 0;
       border-right: 20px solid transparent;
       border-left: 20px solid transparent;
-      border-bottom: 20px solid lightblue;
+      border-bottom: 20px solid #c5f3dd;
       margin: 0 auto;
+      z-index: 1;
+    /*  position: relative;
+      left: 14px;
+      width: 0;
+      height: 0;
+      border-right: 14px solid transparent;
+      border-left: 14px solid transparent;
+      border-bottom: 14px solid #c5f3dd;
+      margin: 0 auto;
+      z-index: 1;*/
+
     }
-    .arrow-up-small{
-      background: red; /*#c5f3dd;*/
-    }
+    
     p{text-align: center;}
     header{
       display: block;
@@ -57,11 +95,13 @@
    <header>Block with arrow to top. Task 3</header>
    
  <div id="content">
-    
-   <div class="block">
-      <div class="arrow-up"><div class="arrow-up-small"></div></div>
-      <p>Дистанции огромного размера</p>
-   </div>
+    <div class="box-block">
+          <div class="arrow-border"></div><div class="arrow-up"></div>
+          <div class="box-content">
+            <p>Дистанции огромного размера</p>
+          </div>
+    </div>
+   
  </div>
    <footer>&copy; Katherina Vovk</footer>
     </div>
