@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Send form</title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	 <link rel="stylesheet" href="styles.css">
+	 <script>
+	 	document.createElement("header");
+    	document.createElement("section");
+	</script>
+</head>
+<body>
+	<div id="container">
+		 <header>Форма заказа Сандали</header>
+		<section>
+
+			<div class="sendform">
+				<p>Хотите приобрести такие сандали, которых ни у кого нет? Закажите обувь у нас и вам будут все завидовать!</p>
+				<form method="post">
+					<p>Сведения о заказчике</p>
+					<div class="supplier">
+						Имя<input type="text">
+						Фамилия<input type="text">
+						Отчество<input type="text">
+					</div>
+					Я хочу такие сандали потому что<br/>
+						<textarea type="textarea" rows="6" cols="50" name="text" placeholder="Не более 300 символов"></textarea>
+					<header>Выберите дизайн сандалей:</header>
+					<div class="characteristics">
+						<fieldset>
+							<legend>Характеристики</legend>
+						<div class="color">
+							<fieldset>
+								<legend for="">Цвет(выберите один пункт):</legend>
+							Red: <input type="radio" name="color"><br/>
+							Blue: <input type="radio" name="color"><br/>
+							Grey: <input type="radio" name="color"><br/>
+							Black: <input type="radio" name="color"><br/>
+							</fieldset>
+						</div>
+
+						<div class="additional">
+							<fieldset>
+								<legend>Дополнительная информация:</legend>
+							Red: <input type="checkbox" name="color"><br/>
+							Blue: <input type="checkbox" name="color"><br/>
+							Grey: <input type="checkbox" name="color"><br/>
+							Black: <input type="checkbox" name="color"><br/>
+							</fieldset>
+						</div>
+						<div class="size">
+							<fieldset>
+								<legend>Размеры</legend>
+							<p>Cтандартные российские размеры</p>
+							<select name="" id="">
+								<option value="33">33</option>
+								<option value="36">36</option>
+								<option value="37">37</option>
+								<option value="39">39</option>
+							</select>
+							</fieldset>
+						</div>
+						</fieldset>
+					</div>
+					<input type="submit" value="Заказать">
+					<input type="submit" value="Сброс">
+				</form>
+			</div>
+		</section>
+	</div>
+
+</body>
+</html>
