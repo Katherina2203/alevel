@@ -1,0 +1,97 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	background-color: #000;
+}
+body{
+	font: 0.8em Arial, Helvetica, sans-serif;
+	
+}
+.loginform{
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+.logo{
+	border: 1px solid white;
+	text-align: center;
+}
+.logo header{
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-style: oblique;
+	font: Helvetica;
+}
+.logo h2{
+
+}
+
+form{
+	border: 5px solid #333;
+	border-radius: 4px;
+	padding-bottom: 15px;
+}
+form h3{
+	text-transform: uppercase;
+	color: #fff;
+	background-color:#f2672e;
+	padding: 15px 0;
+	margin-top:0;
+	text-align: center;
+	font-size: 14px;
+}
+.input-forms{
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+form, .input-forms div, form .input-forms, input, .button-submit{background: #fff;}
+
+.input-forms div{
+	padding-top: 10px;
+}
+.input-forms span{
+	background: #666;
+	color: #fff;
+	padding: 10px;
+}
+.input-forms input{width: 80%;}
+form input{
+	background: #f7f3eb;
+	padding: 5px;
+}
+
+.button-submit input[type="submit"]{
+	padding: 10px;
+	color: #fff; width: 100%;
+	background-color:#f2672e;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.button-submit{
+	width: 100%; 
+	margin: 0 auto;
+}
+.rememberme{
+	float:left;
+	color: #ccc;
+	font-size: 10px;
+}
+
+.rememberme input[type="checkbox"]:focus{}
+.forgotpas{
+	float:right;
+}
+.forgotpas a{
+	font-size: 10px;
+	color: #ccc;
+
+}
+.forgotpas a:hover{text-decoration: underline;}
+footer{
+	text-align: center;
+}
