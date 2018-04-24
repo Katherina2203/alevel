@@ -33,14 +33,21 @@ input[type=submit]{
 fieldset{
 	padding: 1em;
   	font: 14px sans-serif;
-}
-legend{}
-label{
-  float:left;
-  width:30%;
-  margin-right:0.5em;
-  padding-top:0.2em;
-  text-align:right;
-  font-weight:bold;
+  	border-radius: 5px
 }
 
+legend{}
+
+.enimals label{
+  float:left;
+width:22%;
+  margin-right: 10px;
+  padding: 5px;
+  text-align:right;
+  font-weight:bold;
+ /* border: 1px solid red;*/
+}
+.enimals label input[type="text"] {
+   border: 1px solid black;
+   border-radius: 5px;
+}

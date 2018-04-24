@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Send form</title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	 <link rel="stylesheet" href="styles.css">
+	 <script>
+	 	document.createElement("header");
+    	document.createElement("section");
+	</script>
+</head>
+<body>
+	<div id="container">
+		 <header>Форма заявки на работу в зоопарке</header>
+		 	<p>Пожалуйста создайте форму! Обязательные поля помечены *</p>
+		<section>
+
+		
+				<form method="post">
+					
+						<fieldset>
+							<legend>Контактная информация</legend>
+							<label for="">Имя</label> <input type="text" name="name"><br/>
+							<label for="">Телефон</label> <input type="text" name="phone"><br/>
+							<label for="">Email:</label> <input type="text" name="email"><br/>
+						
+							</fieldset>
+							<fieldset>
+								<legend>Персональная информация:</legend>
+							<label for="">Возраст</label> <input type="text" name="name"><br/>
+							<label for="">Пол</label> <select name="" id="">
+								<option value="">Мужской</option>
+								<option value="">Женский</option>
+							</select><br/>
+						    <label for="">Перечислите личные качества</label> <textarea rows="7" cols="25"></textarea> 
+							</fieldset>
+							<fieldset>
+								<legend>Выберите ваших любимых животных</legend>
+								<div class="enimals">
+									<label for=""><input type="checkbox">Зебра</label>
+									<label for=""><input type="checkbox">Медведь</label>
+									<label for=""><input type="checkbox">Лиса</label>
+									<label for=""><input type="checkbox">Волк</label>
+									<label for=""><input type="checkbox">Делльфин</label>
+									<label for=""><input type="checkbox">Обезьяна</label>
+									<label for=""><input type="checkbox">Змея</label>
+									<label for=""><input type="checkbox">Попугай</label>
+								</div>
+							</fieldset>
+					<input type="submit" value="Отправить информацию"/>
+				</form>
+		</section>
+	</div>
+</body>
+</html>
